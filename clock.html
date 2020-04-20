@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Clock</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Montserrat&display=swap" rel="stylesheet">
+      <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <!--Time -->
+      <div id="Time">
+        <h1><b>Currently in Saskatoon</b></h1>
+        <h3></h3>
+        <h4></h4>
+        <img align="middle" src="images/arrow.png"></img>
+      </div>
+
+
+      <!--Weather -->
+      <div id="Weather">
+        <div class="temparature">
+          <p id="temp"></p>
+          <p id="feel"></p>
+          <div class="buttons">
+            <button id="celcius">C</button>
+            <button id="fahrenheit">F</button>
+            <button id="kelvin">K</button>
+          </div>
+          <!-- <img src="images/arrow.png" /> -->
+        </div>
+        <div class="condition">
+          <p id=cond></p>
+          <p id=cond-desc></p>
+          <img id="cond-icon" src="" alt="Condition" />
+          <p id=wind-speed></p>
+          <p id=wind-direction></p>
+        </div>
+      </div>
+    </div>
+  </body>
